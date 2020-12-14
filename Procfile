@@ -1,1 +1,1 @@
-web: java -DadditionalSystemProperties=-Dhttp.port=$PORT -jar target/c-exec.jar
+web: java -DadditionalSystemProperties=-Dhttp.port=$PORT -war target/c.war
