@@ -1,1 +1,0 @@
-web: java -DadditionalSystemProperties=-Dhttp.port=$PORT -war target/c.war
