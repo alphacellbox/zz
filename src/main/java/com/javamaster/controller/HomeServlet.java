@@ -39,7 +39,7 @@ public class HomeServlet extends HttpServlet {
 			List<Article> articles = articleDao.getAllArticles();
 			request.setAttribute("title", "Title of our application");
 			request.setAttribute("articles", articles);
-			request.getRequestDispatcher("/WEB-INF/view/index.jsp").forward(request, response);
+			request.getRequestDispatcher("/NewFile.xhtml").forward(request, response);
 		}
 		
 		else if (path.equals("/welcome")){
